@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">assignment3</string>
+    <string name="car_chooser">Choose your car:</string>
+    <string name="gtrnfo">
+        Nissan GT-R
+        565 hp @ 6,800 rpm
+        467 lb-ft of torque @ 3,300 – 5,800 rpm
+
+        Drivetrain -
+        3.8-liter DOHC 24-valve twin-turbocharged V6
+        Dual-clutch 6-speed transmission with three driver-selectable modes
+        ATTESA E-TS® All-Wheel Drive (AWD) with patented independent rear-mounted transaxle
+
+        Tires -
+        255/40ZRF20 front and 285/35ZRF20 rear Dunlop® SP Sport Maxx® GT 600 DSST CTT high-performance run-flat tires
+        20" RAYS® forged-alloy wheels
+        Nissan/Brembo® braking system
+
+        Weight - 3,935 lbs
+        Distribution - 55/45
+
+    </string>
+
+    <string name="civicnfo">
+        Honda Civic Hatchback
+        180hp @ 5,500 rpm
+        177 lb-ft @ 1900-5000 rpm
+
+        Drivetrain -
+        In-Line 4-Cylinder with Turbocharger
+        6-Speed Manual Transmission (6MT)
+        Front-wheel drive
+
+        Tires -
+        18" Allow wheels
+        Bridgestone all season tires
+
+        Weight - 2945 lbs
+        Distribution - 60/40
+    </string>
+
+    <string name="focusrsnfo">
+        Ford Focus RS
+        350hp @ 6000 rpm
+        350 lb-ft @ 3200 rpm
+
+        Drivetrain -
+        Intercooled Turbo Premium Unleaded I-4
+        Manual w/OD (6MT)
+        All-wheel drive
+
+        Tires -
+        4 wheel disk brakes
+        Forged Aluminum 19x8in P235/35YR19
+
+        Weight - 3434 lbs
+        Distribution - 55/45
+
+    </string>
+    <string name="miatanfo">
+        Mazada Miata
+        155 hp @ 6000 rpm
+        148 lb-ft @ 4600 rpm
+
+        Drivetrain -
+        SKYACTIV®-G1 2.0L DOHC 16-valve 4-cylinder with VVT
+        SKYACTIV®-MT1 6-speed manual transmission with short-throw shifter
+        Front-midship engine, rear-wheel drive
+
+        Tires -
+        4-wheel disc
+        11-inch vented disc with single piston calipers - front
+        11-inch solid disc with single piston calipers - rear
+        17 x 7 aluminum-alloy with Dark Gunmetal finish
+        P205/45 R17 high-performance tires
+
+        Weight - 2,445 lbs
+        Distribution 50/50
+
+    </string>
+    <string name="n400nfo">
+        Nissan 400Z
+        400hp @ ???
+        ??? lb-ft @ ???
+
+        Drivetrain -
+        twin-turbo V6 from an Infiniti Q50/Q60
+        Manual (6MT)
+        Rear-wheel drive
+
+        Tires -
+        ???
+        ???
+        ???
+
+        Weight ~ 3968 lbs
+        Distribution ~ 55/45
+
+    </string>
+    <string name="jagnfo">
+        Jaguar XF-S
+        250hp @ 5,500 rpm
+        269 lb-ft @ 1,300 - 4,500 rpm
+
+        Drivetrain -
+        2L inline four
+        8-speed automatic with paddle shifters
+        All-wheel drive
+
+        Tires -
+        Nothing special
+
+        Weight - 3,655 lbs
+        Distribution - 60/40
+
+    </string>
+
+</resources>
