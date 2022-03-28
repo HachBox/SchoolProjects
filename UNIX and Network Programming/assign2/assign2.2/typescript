@@ -1,0 +1,40 @@
+Script started on Sun Oct  8 23:39:57 2017
+]0;z1811457@hopper: ~/csci330/assign2/assign2.2z1811457@hopper:~/csci330/assign2/assign2.2$ whatis chicken 1 2>err. 1.txt
+]0;z1811457@hopper: ~/csci330/assign2/assign2.2z1811457@hopper:~/csci330/assign2/assign2.2$ what i  is tuerkey 2> >err2.txt
+]0;z1811457@hopper: ~/csci330/assign2/assign2.2z1811457@hopper:~/csci330/assign2/assign2.2$ whatis hammeroni 2>err3.txt
+]0;z1811457@hopper: ~/csci330/assign2/assign2.2z1811457@hopper:~/csci330/assign2/assign2.2$ whatis inappropriate 2>erro 4.txt
+]0;z1811457@hopper: ~/csci330/assign2/assign2.2z1811457@hopper:~/csci330/assign2/assign2.2$ whatis nsfw 2>err5.txt
+]0;z1811457@hopper: ~/csci330/assign2/assign2.2z1811457@hopper:~/csci330/assign2/assign2.2$ cat err1. .txt err2.txt err3.txt 3 err4 .txt err5.txt >  > log.txt
+]0;z1811457@hopper: ~/csci330/assign2/assign2.2z1811457@hopper:~/csci330/assign2/assign2.2$ [Kcat -n log.txt
+     1	chicken: nothing appropriate.
+     2	tuerkey: nothing appropriate.
+     3	hammeroni: nothing appropriate.
+     4	inappropriate: nothing appropriate.
+     5	nsfw: nothing appropriate.
+]0;z1811457@hopper: ~/csci330/assign2/assign2.2z1811457@hopper:~/csci330/assign2/assign2.2$ finger
+Login     Name                  Tty      Idle  Login Time   Office     Office Phone
+z1734307  Alex Wills            pts/2      52  Oct  8 20:57 (c-67-186-69-86.hsd1.il.comcast.net)
+z1764231  Michael Hollander     pts/14     23  Oct  8 22:29 (c-67-167-51-238.hsd1.il.comcast.net)
+z1764231  Michael Hollander     pts/22      3  Oct  8 22:13 (c-67-167-51-238.hsd1.il.comcast.net)
+z1772974  Carlton Hunt          pts/10   1:43  Oct  8 21:39 (c-66-41-60-243.hsd1.mn.comcast.net)
+z1772974  Carlton Hunt          pts/20      6  Oct  8 21:59 (c-98-253-16-91.hsd1.il.comcast.net)
+z1790197  Shiva Singh           pts/17   1:09  Oct  8 20:48 (10.168.208.54)
+z1791861  Kevin Pallikunnel     pts/7    1:56  Oct  8 21:45 (c-98-228-177-173.hsd1.il.comcast.net)
+z1793452  Charlie Hudziak       pts/0          Oct  8 23:38 (10.167.1.158)
+z1799041  Benjamin Schulz       pts/16         Oct  8 22:33 (c-73-9-234-122.hsd1.il.comcast.net)
+z1811457  Harry Chieng          pts/23         Oct  8 22:16 (10.166.232.39)
+z1812883  Kris Schrader         pts/19   1:33  Oct  8 21:59 (c-98-226-119-199.hsd1.il.comcast.net)
+z1821996  Jeremy Torossian      pts/4          Oct  8 21:06 (c-73-8-185-58.hsd1.il.comcast.net)
+z1825194  Byron Hogan           pts/3          Oct  8 23:31 (c-73-210-149-52.hsd1.il.comcast.net)
+z1825194  Byron Hogan           pts/15     50  Oct  8 22:29 (c-73-210-149-52.hsd1.il.comcast.net)
+z1829678  Christopher Adams     pts/12      6  Oct  8 22:43 (10.168.217.84)
+z1834335  Jose Escamilla        pts/11         Oct  8 22:15 (c-98-228-177-128.hsd1.il.comcast.net)
+z1835773  Elizabeth Harasymiw   pts/11         Oct  8 11:20 (c-66-41-57-199:S.3)
+z1835773  Elizabeth Harasymiw   pts/10   1:43  Oct  8 11:20 (c-66-41-57-199:S.2)
+z1835773  Elizabeth Harasymiw   pts/2      52  Oct  8 06:53 (c-66-41-57-199:S.1)
+]0;z1811457@hopper: ~/csci330/assign2/assign2.2z1811457@hopper:~/csci330/assign2/assign2.2$ finger      last  |tax c        head -2 list|    | tail -2 list
+tail: cannot open 'list' for reading: No such file or directory
+head: cannot open 'list' for reading: No such file or directory
+]0;z1811457@hopper: ~/csci330/assign2/assign2.2z1811457@hopper:~/csci330/assign2/assign2.2$ exit
+
+Script done on Sun Oct  8 23:44:49 2017
