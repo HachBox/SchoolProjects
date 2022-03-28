@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">porfolio4b</string>
+    <string name="nameQ_label">What is your name?</string>
+    <string name="return_button">Return the Name</string>
+</resources>
