@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">portfolio3</string>
+    <string name="beef_string">Beef Patty</string>
+    <string name="turkey_string">Turkey Patty</string>
+    <string name="veggie_string">Veggie Patty</string>
+    <string name="bacon_string">Bacon</string>
+    <string name="no_cheese_string">No Cheese</string>
+    <string name="cheddar_string">Cheddar</string>
+    <string name="mozz_string">Mozzarella</string>
+    <string name="sauce_string">Special Sauce - up to one teaspoon</string>
+    <string name="calorie_string">Calories?</string>
+    <string name="content_top_string">Top Bun Image</string>
+    <string name="content_bottom_string">Bottom Bun Image</string>
+
+</resources>

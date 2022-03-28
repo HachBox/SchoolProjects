@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:contentDescription="@string/content_top_string"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:contentDescription="@string/content_top_string"
+        app:srcCompat="@drawable/bobs_burgers" />
+
+    <RadioGroup
+        android:id="@+id/pattyRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/beefRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beef_string"
+            android:textColor="#CC0000"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/turkeyRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/turkey_string"
+            android:textColor="#CC0000"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/veggieRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/veggie_string"
+            android:textColor="#CC0000"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/baconCheckBox"
+        android:layout_width="83dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center_horizontal"
+        android:checked="false"
+        android:gravity="center_horizontal"
+        android:text="@string/bacon_string"
+        android:textColor="#CC0000"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/cheeseRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/noCheeseRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_cheese_string"
+            android:textColor="#CC0000"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/cheddarRadioButton"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cheddar_string"
+            android:textColor="#CC0000"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/mozzarellaRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mozz_string"
+            android:textColor="#CC0000"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <SeekBar
+        android:id="@+id/sauceSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/sauce_string"
+        android:textColor="#CC0000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/caloriesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/calorie_string"
+        android:textColor="#CC0000"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
