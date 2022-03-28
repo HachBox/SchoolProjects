@@ -1,0 +1,96 @@
+1.
+MariaDB [z1811457]> use znnnnnnn;
+ERROR 1044 (42000): Access denied for user 'z1811457'@'192.168.8.%' to database 'znnnnnnn'
+MariaDB [z1811457]> start transaction;
+Query OK, 0 rows affected (0.00 sec)
+
+MariaDB [z1811457]> delete from movie where pk = 3;
+Query OK, 1 row affected (0.00 sec)
+
+MariaDB [z1811457]> select * from movie;
++----+-----------------+
+| pk | name            |
++----+-----------------+
+|  1 | Das Boot        |
+|  2 | The Godfather   |
+|  4 | Shrek           |
+|  5 | StarTrek        |
+|  6 | The Black Stall |
+|  7 | Das Boot        |
+|  8 | The Godfather   |
+|  9 | Jaws            |
+| 10 | The Black Stall |
+| 11 | Shrek           |
+| 12 | StarTrek        |
++----+-----------------+
+11 rows in set (0.00 sec)
+
+2.
+MariaDB [z1811457]> Update movie set name = 'Iron Man' where pk = 2;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+3.
+MariaDB [z1811457]> Update movie set name = 'Con Air' where pk = 4;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+4.
+MariaDB [z1811457]> insert into movie (name)
+    -> values('Grease');
+Query OK, 1 row affected (0.00 sec)
+
+MariaDB [z1811457]> select * from movie;
++----+-----------------+
+| pk | name            |
++----+-----------------+
+|  1 | Das Boot        |
+|  2 | Iron Man        |
+|  4 | Con Air         |
+|  5 | StarTrek        |
+|  6 | The Black Stall |
+|  7 | Das Boot        |
+|  8 | The Godfather   |
+|  9 | Jaws            |
+| 10 | The Black Stall |
+| 11 | Shrek           |
+| 12 | StarTrek        |
+| 13 | Grease          |
++----+-----------------+
+12 rows in set (0.12 sec)
+
+/*
+What is result of the select statement, and why?
+Grease was added along with the other 2 movie sets 'Iron Man' and 'Con Air'.
+Because this all is done within one terminal.
+*/
+
+5.
+MariaDB [z1811457]> rollback;
+Query OK, 0 rows affected (0.03 sec)
+
+MariaDB [z1811457]> select * from movie;
++----+-----------------+
+| pk | name            |
++----+-----------------+
+|  1 | Das Boot        |
+|  2 | The Godfather   |
+|  3 | Jaws            |
+|  4 | Shrek           |
+|  5 | StarTrek        |
+|  6 | The Black Stall |
+|  7 | Das Boot        |
+|  8 | The Godfather   |
+|  9 | Jaws            |
+| 10 | The Black Stall |
+| 11 | Shrek           |
+| 12 | StarTrek        |
++----+-----------------+
+12 rows in set (0.00 sec)
+
+MariaDB [z1811457]> \t
+
+/*
+What is result of the select statement, and why?
+This rolled back the previous insert statement.
+*/

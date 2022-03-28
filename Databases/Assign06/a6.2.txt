@@ -1,0 +1,29 @@
+MariaDB [z1811457]> SELECT DISTINCT LastName, FirstName, COUNT(BoatType)'Total Boats' FROM Owner, MarinaSlip GROUP BY Owner.OwnerNum, MarinaSlip.BoatType HAVING COUNT(BoatType) > 1;
++----------+-----------------+-------------+
+| LastName | FirstName       | Total Boats |
++----------+-----------------+-------------+
+| Adney    | Bruce and Doris |           3 |
+| Adney    | Bruce and Doris |           2 |
+| Anderson | Bill            |           3 |
+| Anderson | Bill            |           2 |
+| Blake    | Mary Jane       |           3 |
+| Blake    | Mary Jane       |           2 |
+| Elend    | Mary and Bill   |           3 |
+| Elend    | Mary and Bill   |           2 |
+| Feenstra | Daniel          |           3 |
+| Feenstra | Daniel          |           2 |
+| Juarez   | Maria           |           3 |
+| Juarez   | Maria           |           2 |
+| Kelly    | Alyssa          |           3 |
+| Kelly    | Alyssa          |           2 |
+| Smith    | Peter           |           3 |
+| Smith    | Peter           |           2 |
+| Smeltz   | Becky and Dave  |           3 |
+| Smeltz   | Becky and Dave  |           2 |
+| Trent    | Ashton          |           3 |
+| Trent    | Ashton          |           2 |
++----------+-----------------+-------------+
+20 rows in set (0.00 sec)
+
+MariaDB [z1811457]> Ctrl-C -- exit!
+Aborted

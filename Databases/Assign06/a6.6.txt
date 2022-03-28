@@ -1,0 +1,10 @@
+MariaDB [z1811457]> SELECT SUM(MarinaSlip.RentalFee) FROM MarinaSlip;
++---------------------------+
+| SUM(MarinaSlip.RentalFee) |
++---------------------------+
+|                  41100.00 |
++---------------------------+
+1 row in set (0.00 sec)
+
+MariaDB [z1811457]> Ctrl-C -- exit!
+Aborted

@@ -1,0 +1,25 @@
+MariaDB [z1811457]> SELECT Owner.LastName, ServiceRequest.Description FROM Owner, MarinaSlip, ServiceRequest WHERE Owner.OwnerNum = MarinaSlip.OwnerNum AND MarinaSlip.SlipID = ServiceRequest.SlipID;
++----------+---------------------------------------------------------------------------------------------------------+
+| LastName | Description                                                                                             |
++----------+---------------------------------------------------------------------------------------------------------+
+| Blake    | Canvas leaks around zippers in heavy rain. Install overlap around zippers to prevent leaks.             |
+| Adney    | Air conditioner periodically stops with code indicating low coolant level. Diagnose and repair.         |
+| Elend    | Fuse on port motor blown on two occasions. Diagnose and repair.                                         |
+| Feenstra | Oil change and general routine maintenance (check fluid levels, clean sea strainers etc.).              |
+| Adney    | Engine oil level has been dropping drastically. Diagnose and repair.                                    |
+| Juarez   | Air conditioning unit shuts down with HHH showing on the control panel.                                 |
+| Smeltz   | Electric-flush system periodically stops functioning. Diagnose and repair.                              |
+| Adney    | Engine overheating. Loss of coolant. Diagnose and repair.                                               |
+| Adney    | Heat exchanger not operating correctly.                                                                 |
+| Kelly    | Canvas severely damaged in windstorm. Order and install new canvas.                                     |
+| Anderson | Install new GPS and chart plotter.                                                                      |
+| Anderson | Air conditioning unit shuts down with HHH showing on the control panel.                                 |
+| Feenstra | Both speed and depth readings on data unit are significantly less than the owner thinks they should be. |
+| Trent    | Customer describes engine as making a clattering sound.                                                 |
+| Kelly    | Owner accident caused damage to forward portion of port side.                                           |
+| Smeltz   | Canvas leaks around zippers in heavy rain. Install overlap around zippers to prevent leaks.             |
++----------+---------------------------------------------------------------------------------------------------------+
+16 rows in set (0.00 sec)
+
+MariaDB [z1811457]> Ctrl-C -- exit!
+Aborted

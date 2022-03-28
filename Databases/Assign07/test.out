@@ -1,0 +1,128 @@
+MariaDB [z1811457]> \. assignment7.sql
+Query OK, 0 rows affected (0.29 sec)
+
+Query OK, 0 rows affected (0.41 sec)
+
+Query OK, 5 rows affected (0.08 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
++---------+-----------+-----------+
+| OwnerID | FirstName | LastName  |
++---------+-----------+-----------+
+|       2 | Joseph    | Name      |
+|       9 | Alex      | Johnson   |
+|      10 | John      | Skywalker |
+|      21 | Joe       | Smith     |
+|      59 | What      | The       |
++---------+-----------+-----------+
+5 rows in set (0.21 sec)
+
+Query OK, 0 rows affected (0.39 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'INSERT INTO Pet (PetID, PetName, PetDOB, OwnerID) VALUES 
+(520, 'Bronco', '06/09' at line 5
+Empty set (0.00 sec)
+
+Query OK, 0 rows affected (0.51 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Empty set (0.00 sec)
+
+Empty set (0.00 sec)
+
+MariaDB [z1811457]> SELECT * FROM Pet;
+Empty set (0.00 sec)
+
+MariaDB [z1811457]> SELECT * FROM Owner;
++---------+-----------+-----------+
+| OwnerID | FirstName | LastName  |
++---------+-----------+-----------+
+|       2 | Joseph    | Name      |
+|       9 | Alex      | Johnson   |
+|      10 | John      | Skywalker |
+|      21 | Joe       | Smith     |
+|      59 | What      | The       |
++---------+-----------+-----------+
+5 rows in set (0.00 sec)
+
+MariaDB [z1811457]> \. assignment7.sql
+Query OK, 0 rows affected (0.37 sec)
+
+Query OK, 0 rows affected (0.42 sec)
+
+Query OK, 5 rows affected (0.08 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
++---------+-----------+-----------+
+| OwnerID | FirstName | LastName  |
++---------+-----------+-----------+
+|       2 | Joseph    | Name      |
+|       9 | Alex      | Johnson   |
+|      10 | John      | Skywalker |
+|      21 | Joe       | Smith     |
+|      59 | What      | The       |
++---------+-----------+-----------+
+5 rows in set (0.04 sec)
+
+Query OK, 0 rows affected (1.02 sec)
+
+Query OK, 5 rows affected (0.14 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
++-------+----------+----------+---------+
+| PetID | PetName  | PetDOB   | OwnerID |
++-------+----------+----------+---------+
+|   151 | Mallort  | 09/06/96 |       9 |
+|   156 | Davey    | 12/21/12 |       2 |
+|   195 | Jimbo    | 06/06/06 |      14 |
+|   512 | BUckaroo | 09/09/09 |      12 |
+|   520 | Bronco   | 06/09/69 |       9 |
++-------+----------+----------+---------+
+5 rows in set (0.12 sec)
+
+Query OK, 0 rows affected (0.70 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-------+----------+----------+---------+---------+
+| PetID | PetName  | PetDOB   | OwnerID | PetType |
++-------+----------+----------+---------+---------+
+|   151 | Mallort  | 09/06/96 |       9 | NULL    |
+|   156 | Davey    | 12/21/12 |       2 | NULL    |
+|   195 | Jimbo    | 06/06/06 |      14 | NULL    |
+|   512 | BUckaroo | 09/09/09 |      12 | NULL    |
+|   520 | Bronco   | 06/09/69 |       9 | NULL    |
++-------+----------+----------+---------+---------+
+5 rows in set (0.00 sec)
+
++-------+----------+----------+---------+---------+---------+-----------+-----------+
+| PetID | PetName  | PetDOB   | OwnerID | PetType | OwnerID | FirstName | LastName  |
++-------+----------+----------+---------+---------+---------+-----------+-----------+
+|   151 | Mallort  | 09/06/96 |       9 | NULL    |       2 | Joseph    | Name      |
+|   156 | Davey    | 12/21/12 |       2 | NULL    |       2 | Joseph    | Name      |
+|   195 | Jimbo    | 06/06/06 |      14 | NULL    |       2 | Joseph    | Name      |
+|   512 | BUckaroo | 09/09/09 |      12 | NULL    |       2 | Joseph    | Name      |
+|   520 | Bronco   | 06/09/69 |       9 | NULL    |       2 | Joseph    | Name      |
+|   151 | Mallort  | 09/06/96 |       9 | NULL    |       9 | Alex      | Johnson   |
+|   156 | Davey    | 12/21/12 |       2 | NULL    |       9 | Alex      | Johnson   |
+|   195 | Jimbo    | 06/06/06 |      14 | NULL    |       9 | Alex      | Johnson   |
+|   512 | BUckaroo | 09/09/09 |      12 | NULL    |       9 | Alex      | Johnson   |
+|   520 | Bronco   | 06/09/69 |       9 | NULL    |       9 | Alex      | Johnson   |
+|   151 | Mallort  | 09/06/96 |       9 | NULL    |      10 | John      | Skywalker |
+|   156 | Davey    | 12/21/12 |       2 | NULL    |      10 | John      | Skywalker |
+|   195 | Jimbo    | 06/06/06 |      14 | NULL    |      10 | John      | Skywalker |
+|   512 | BUckaroo | 09/09/09 |      12 | NULL    |      10 | John      | Skywalker |
+|   520 | Bronco   | 06/09/69 |       9 | NULL    |      10 | John      | Skywalker |
+|   151 | Mallort  | 09/06/96 |       9 | NULL    |      21 | Joe       | Smith     |
+|   156 | Davey    | 12/21/12 |       2 | NULL    |      21 | Joe       | Smith     |
+|   195 | Jimbo    | 06/06/06 |      14 | NULL    |      21 | Joe       | Smith     |
+|   512 | BUckaroo | 09/09/09 |      12 | NULL    |      21 | Joe       | Smith     |
+|   520 | Bronco   | 06/09/69 |       9 | NULL    |      21 | Joe       | Smith     |
+|   151 | Mallort  | 09/06/96 |       9 | NULL    |      59 | What      | The       |
+|   156 | Davey    | 12/21/12 |       2 | NULL    |      59 | What      | The       |
+|   195 | Jimbo    | 06/06/06 |      14 | NULL    |      59 | What      | The       |
+|   512 | BUckaroo | 09/09/09 |      12 | NULL    |      59 | What      | The       |
+|   520 | Bronco   | 06/09/69 |       9 | NULL    |      59 | What      | The       |
++-------+----------+----------+---------+---------+---------+-----------+-----------+
+25 rows in set (0.00 sec)
+
+MariaDB [z1811457]> \T test2.out

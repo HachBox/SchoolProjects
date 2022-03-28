@@ -1,0 +1,24 @@
+MariaDB [z1811457]> SELECT DISTINCT MarinaSlip.BoatName, ServiceRequest.NextServiceDate FROM MarinaSlip, ServiceRequest WHERE MarinaSlip.SlipID = ServiceRequest.SlipID;
++--------------+-----------------+
+| BoatName     | NextServiceDate |
++--------------+-----------------+
+| Krispy       | 2013-07-17      |
+| Anderson II  | 2013-07-12      |
+| Anderson III | 2013-07-12      |
+| Gypsy        | 2013-07-16      |
+| Anderson II  | 2013-07-13      |
+| Axxon IV     | 2020-12-31      |
+| Karvel       | 2020-12-31      |
+| Bravo        | 2013-07-13      |
+| Bravo        | 2013-07-17      |
+| Chinook      | 2013-07-16      |
+| Our Toy      | 2013-07-17      |
+| Our Toy      | 2020-12-31      |
+| Listy        | 2013-07-12      |
+| Chinook      | 2013-07-13      |
+| Karvel       | 2013-07-17      |
++--------------+-----------------+
+15 rows in set (0.00 sec)
+
+MariaDB [z1811457]> Ctrl-C -- exit!
+Aborted

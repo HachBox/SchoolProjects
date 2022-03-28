@@ -1,0 +1,22 @@
+MariaDB [z1811457]> SELECT DISTINCT Owner.LastName, Owner.FirstName, MarinaSlip.BoatType FROM Owner, MarinaSlip WHERE Owner.OwnerNum = MarinaSlip.OwnerNum;
++----------+-----------------+-------------+
+| LastName | FirstName       | BoatType    |
++----------+-----------------+-------------+
+| Adney    | Bruce and Doris | Sprite 4000 |
+| Anderson | Bill            | Ray 4025    |
+| Blake    | Mary Jane       | Sprite 4000 |
+| Feenstra | Daniel          | Dolphin 28  |
+| Elend    | Mary and Bill   | Sprite 3000 |
+| Adney    | Bruce and Doris | Dolphin 25  |
+| Kelly    | Alyssa          | Dolphin 22  |
+| Trent    | Ashton          | Dolphin 25  |
+| Smith    | Peter           | Dolphin 28  |
+| Feenstra | Daniel          | Dolphin 40  |
+| Smeltz   | Becky and Dave  | Ray 4025    |
+| Juarez   | Maria           | Dolphin 40  |
+| Blake    | Mary Jane       | Ray 4025    |
++----------+-----------------+-------------+
+13 rows in set (0.00 sec)
+
+MariaDB [z1811457]> Ctrl-C -- exit!
+Aborted

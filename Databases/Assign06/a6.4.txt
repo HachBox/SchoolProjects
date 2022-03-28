@@ -1,0 +1,66 @@
+MariaDB [z1811457]> SELECT ServiceCategory.CategoryDescription, COUNT(*) FROM ServiceCategory, ServiceRequest WHERE ServiceCategory.CategoryNum = ServiceRequest.CategoryNum AND ServiceCategory.CategoryNum = '1';
++----------------------------+----------+
+| CategoryDescription        | COUNT(*) |
++----------------------------+----------+
+| Routine engine maintenance |        1 |
++----------------------------+----------+
+1 row in set (0.00 sec)
+
+MariaDB [z1811457]> SELECT ServiceCategory.CategoryDescription, COUNT(*) FROM ServiceCategory, ServiceRequest WHERE ServiceCategory.CategoryNum = ServiceRequest.CategoryNum AND ServiceCategory.CategoryNum = '2';
++---------------------+----------+
+| CategoryDescription | COUNT(*) |
++---------------------+----------+
+| Engine repair       |        4 |
++---------------------+----------+
+1 row in set (0.01 sec)
+
+MariaDB [z1811457]> SELECT ServiceCategory.CategoryDescription, COUNT(*) FROM ServiceCategory, ServiceRequest WHERE ServiceCategory.CategoryNum = ServiceRequest.CategoryNum AND ServiceCategory.CategoryNum = '3';
++---------------------+----------+
+| CategoryDescription | COUNT(*) |
++---------------------+----------+
+| Air conditioning    |        3 |
++---------------------+----------+
+1 row in set (0.00 sec)
+
+MariaDB [z1811457]> SELECT ServiceCategory.CategoryDescription, COUNT(*) FROM ServiceCategory, ServiceRequest WHERE ServiceCategory.CategoryNum = ServiceRequest.CategoryNum AND ServiceCategory.CategoryNum = '4';
++---------------------+----------+
+| CategoryDescription | COUNT(*) |
++---------------------+----------+
+| Electrical systems  |        2 |
++---------------------+----------+
+1 row in set (0.00 sec)
+
+MariaDB [z1811457]> SELECT ServiceCategory.CategoryDescription, COUNT(*) FROM ServiceCategory, ServiceRequest WHERE ServiceCategory.CategoryNum = ServiceRequest.CategoryNum AND ServiceCategory.CategoryNum = '5';
++---------------------+----------+
+| CategoryDescription | COUNT(*) |
++---------------------+----------+
+| Fiberglass repair   |        1 |
++---------------------+----------+
+1 row in set (0.00 sec)
+
+MariaDB [z1811457]> SELECT ServiceCategory.CategoryDescription, COUNT(*) FROM ServiceCategory, ServiceRequest WHERE ServiceCategory.CategoryNum = ServiceRequest.CategoryNum AND ServiceCategory.CategoryNum = '6';
++---------------------+----------+
+| CategoryDescription | COUNT(*) |
++---------------------+----------+
+| Canvas installation |        1 |
++---------------------+----------+
+1 row in set (0.00 sec)
+
+MariaDB [z1811457]> SELECT ServiceCategory.CategoryDescription, COUNT(*) FROM ServiceCategory, ServiceRequest WHERE ServiceCategory.CategoryNum = ServiceRequest.CategoryNum AND ServiceCategory.CategoryNum = '7';
++---------------------+----------+
+| CategoryDescription | COUNT(*) |
++---------------------+----------+
+| Canvas repair       |        2 |
++---------------------+----------+
+1 row in set (0.00 sec)
+
+MariaDB [z1811457]> SELECT ServiceCategory.CategoryDescription, COUNT(*) FROM ServiceCategory, ServiceRequest WHERE ServiceCategory.CategoryNum = ServiceRequest.CategoryNum AND ServiceCategory.CategoryNum = '8';
++---------------------------------------------------+----------+
+| CategoryDescription                               | COUNT(*) |
++---------------------------------------------------+----------+
+| Electronic systems (radar, GPS, autopilots, etc.) |        2 |
++---------------------------------------------------+----------+
+1 row in set (0.00 sec)
+
+MariaDB [z1811457]> Ctrl-C -- exit!
+Aborted

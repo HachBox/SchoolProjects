@@ -1,0 +1,22 @@
+MariaDB [z1811457]> SELECT DISTINCT Owner.LastName, Owner.FirstName, Owner.City, Owner.State, Marina.Name FROM Owner, Marina, MarinaSlip WHERE Owner.OwnerNum = MarinaSlip.OwnerNum AND MarinaSlip.MarinaNum = Marina.Marinanum;
++----------+-----------------+-------------+-------+-------------------+
+| LastName | FirstName       | City        | State | Name              |
++----------+-----------------+-------------+-------+-------------------+
+| Adney    | Bruce and Doris | Bowton      | FL    | Alexamara East    |
+| Anderson | Bill            | Glander Bay | FL    | Alexamara East    |
+| Blake    | Mary Jane       | Bowton      | FL    | Alexamara East    |
+| Feenstra | Daniel          | Kaleva      | FL    | Alexamara East    |
+| Elend    | Mary and Bill   | Rivard      | FL    | Alexamara East    |
+| Adney    | Bruce and Doris | Bowton      | FL    | Alexamara Central |
+| Kelly    | Alyssa          | Bowton      | FL    | Alexamara Central |
+| Trent    | Ashton          | Bay Shores  | FL    | Alexamara Central |
+| Smith    | Peter           | Lewiston    | FL    | Alexamara Central |
+| Feenstra | Daniel          | Kaleva      | FL    | Alexamara Central |
+| Smeltz   | Becky and Dave  | Glander Bay | FL    | Alexamara Central |
+| Juarez   | Maria           | Rivard      | FL    | Alexamara South   |
+| Blake    | Mary Jane       | Bowton      | FL    | Alexamara South   |
++----------+-----------------+-------------+-------+-------------------+
+13 rows in set (0.01 sec)
+
+MariaDB [z1811457]> Ctrl-C -- exit!
+Aborted

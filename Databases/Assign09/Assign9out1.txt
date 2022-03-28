@@ -1,0 +1,110 @@
+1. 
+MariaDB [z1811457]> use znnnnnnn;
+ERROR 1044 (42000): Access denied for user 'z1811457'@'192.168.8.%' to database 'znnnnnnn'
+MariaDB [z1811457]> create table movie(
+    -> pk int auto_increment primary key,
+    -> name char(15));
+ERROR 1050 (42S01): Table 'movie' already exists
+MariaDB [z1811457]> start transaction;
+Query OK, 0 rows affected (0.00 sec)
+
+MariaDB [z1811457]> insert into movie (name)
+    -> values('Das Boot');
+Query OK, 1 row affected (0.00 sec)
+
+MariaDB [z1811457]> insert into movie (name)
+    -> values('The Godfather');
+Query OK, 1 row affected (0.00 sec)
+
+MariaDB [z1811457]> insert into movie (name)
+    -> values('Jaws');
+Query OK, 1 row affected (0.00 sec)
+
+MariaDB [z1811457]> insert into movie (name)
+    -> values('The Black Stallion');
+Query OK, 1 row affected, 1 warning (0.00 sec)
+
+2.
+MariaDB [z1811457]> use znnnnnnn;
+ERROR 1044 (42000): Access denied for user 'z1811457'@'192.168.8.%' to database 'znnnnnnn'
+MariaDB [z1811457]> select * from movie;
++----+-----------------+
+| pk | name            |
++----+-----------------+
+|  1 | Das Boot        |
+|  2 | The Godfather   |
+|  3 | Jaws            |
+|  4 | Shrek           |
+|  5 | StarTrek        |
+|  6 | The Black Stall |
++----+-----------------+
+6 rows in set (0.00 sec)
+/*
+What is result of the select statement, and why?
+The database znnnnnnn is not in that terminal and is used in "another"
+computer not allowing changes to be made to it.
+*/
+
+3.
+MariaDB [z1811457]> insert into movie (name)
+    -> values('Shrek');
+Query OK, 1 row affected (0.09 sec)
+
+MariaDB [z1811457]> insert into movie (name)
+    -> values('StarTrek');
+Query OK, 1 row affected (0.04 sec)
+
+4.
+MariaDB [z1811457]> commit;
+Query OK, 0 rows affected (0.06 sec)
+
+MariaDB [z1811457]> select * from movie;
++----+-----------------+
+| pk | name            |
++----+-----------------+
+|  1 | Das Boot        |
+|  2 | The Godfather   |
+|  3 | Jaws            |
+|  4 | Shrek           |
+|  5 | StarTrek        |
+|  6 | The Black Stall |
+|  7 | Das Boot        |
+|  8 | The Godfather   |
+|  9 | Jaws            |
+| 10 | The Black Stall |
+| 11 | Shrek           |
+| 12 | StarTrek        |
++----+-----------------+
+12 rows in set (0.00 sec)
+
+MariaDB [z1811457]> \t
+
+5.
+MariaDB [z1811457]> select * from movie;
++----+-----------------+
+| pk | name            |
++----+-----------------+
+|  1 | Das Boot        |
+|  2 | The Godfather   |
+|  3 | Jaws            |
+|  4 | Shrek           |
+|  5 | StarTrek        |
+|  6 | The Black Stall |
+|  7 | Das Boot        |
+|  8 | The Godfather   |
+|  9 | Jaws            |
+| 10 | The Black Stall |
+| 11 | Shrek           |
+| 12 | StarTrek        |
++----+-----------------+
+12 rows in set (0.00 sec)
+
+MariaDB [z1811457]> \t
+
+/*
+What is result of the select statement, and why?
+I unfortunately have gotten the same output, it might be because I have
+created the database prior to messing up? I assume that one of the tables
+wasn't supposed to have 'Shrek' or 'StarTrek' as changes done in one terminal
+doesn't correlate to the other when being worked on.
+*/
