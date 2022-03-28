@@ -1,3 +1,26 @@
 * Apps created during my Android class
+The class was fun, it primarily worked on Java. 
+I will have to sort out problems with running a local android emulator.
+
 * Index
-[[portfolio1][Portfolio 1]]
+[[portfolio1][Calculator]]
+[[portfolio2][Calculator, auto generating results. Changing activities]]
+[[portfolio3][Calculator, auto generating results. Slide bar]]
+[[portfolio4a][Buttons - The buttons openn the browser, phone, camera]]
+[[portfolio5][Spinners input]]
+[[portfolio6][Changing activities, displaying error messages?]]
+[[portfolio7][TBD]]
+[[portfolio8][Plays mp3 files with a button and a picture denoting the sound]]
+[[portfolio9][Tic tac toe]]
+[[portfolio10a_sliding][Sliding - Transitions activities by sliding]]
+[[portfolio10][TBD]]
+[[portfolio11][TBD]]
+[[portfolio12][]]
+[[portfolio13][]]
+[[portfolio14_letters][]]
+[[portfolio15][]]
+[[midterm][]]
+[[weatherproject][]]
+[[assignment3][]]
+[[assignment4][]]
+
