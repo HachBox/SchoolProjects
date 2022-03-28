@@ -1,5 +1,6 @@
 * Apps created during my Android class
 The class was fun, it primarily worked on Java. 
+
 I will have to sort out problems with running a local android emulator.
 
 * Portfolios
