@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">portfolio9</string>
+    <string name="dialog_title">Tic Tac Toe</string>
+    <string name="dialog_message">Do you want to play again?</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_yes">Yes</string>
+</resources>
