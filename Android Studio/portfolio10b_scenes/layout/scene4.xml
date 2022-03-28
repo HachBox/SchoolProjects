@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/row1col1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/r1c1" />
+
+    <ImageView
+        android:id="@+id/row1col2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row1col1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/r1c2" />
+
+    <ImageView
+        android:id="@+id/row1col3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row1col2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/r1c3" />
+
+    <ImageView
+        android:id="@+id/row1col4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row1col3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/r1c4" />
+
+    <ImageView
+        android:id="@+id/row1col5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row1col4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/r1c5" />
+
+    <ImageView
+        android:id="@+id/row1col6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row1col5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/r1c6" />
+
+    <ImageView
+        android:id="@+id/row2col1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/row1col1"
+        app:srcCompat="@drawable/r2c1" />
+
+    <ImageView
+        android:id="@+id/row2col2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row2col1"
+        app:layout_constraintTop_toBottomOf="@+id/row1col2"
+        app:srcCompat="@drawable/r2c2" />
+
+    <ImageView
+        android:id="@+id/row2col3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row2col2"
+        app:layout_constraintTop_toBottomOf="@+id/row1col6"
+        app:srcCompat="@drawable/r2c3" />
+
+    <ImageView
+        android:id="@+id/row3col1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/row2col1"
+        app:srcCompat="@drawable/r3c1" />
+
+    <ImageView
+        android:id="@+id/row3col2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row3col1"
+        app:layout_constraintTop_toBottomOf="@+id/row2col2"
+        app:srcCompat="@drawable/r3c2" />
+
+    <ImageView
+        android:id="@+id/row3col3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row3col2"
+        app:layout_constraintTop_toBottomOf="@+id/row2col3"
+        app:srcCompat="@drawable/r3c3" />
+
+    <ImageView
+        android:id="@+id/row4col1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/row3col1"
+        app:srcCompat="@drawable/r4c1" />
+
+    <ImageView
+        android:id="@+id/row4col2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row4col1"
+        app:layout_constraintTop_toBottomOf="@+id/row3col2"
+        app:srcCompat="@drawable/r4c2" />
+
+    <ImageView
+        android:id="@+id/row4col3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row4col2"
+        app:layout_constraintTop_toBottomOf="@+id/row3col3"
+        app:srcCompat="@drawable/r4c3" />
+
+    <ImageView
+        android:id="@+id/row5col1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/row4col1"
+        app:srcCompat="@drawable/r5c1" />
+
+    <ImageView
+        android:id="@+id/row5col2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row5col1"
+        app:layout_constraintTop_toBottomOf="@+id/row4col2"
+        app:srcCompat="@drawable/r5c2" />
+
+    <ImageView
+        android:id="@+id/row5col3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/row5col2"
+        app:layout_constraintTop_toBottomOf="@+id/row4col3"
+        app:srcCompat="@drawable/r5c3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="changeScene"
+        android:text="@string/start_over"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/row5col3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/row5col2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
