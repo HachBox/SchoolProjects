@@ -1,0 +1,73 @@
+Welcome!
+FIFO with 5 physical frames
+PageTable: page fault occurred
+Physical: Swap In: main
+Physical: Accessed frameID: 0 contains: main
+
+PageTable: page fault occurred
+Physical: Swap In: load
+Physical: Accessed frameID: 1 contains: load
+
+PageTable: page fault occurred
+Physical: Swap In: holding
+Physical: Accessed frameID: 2 contains: holding
+
+Physical: Accessed frameID: 0 contains: main
+
+PageTable: page fault occurred
+Physical: Swap In: activity
+Physical: Accessed frameID: 3 contains: activity
+
+PageTable: page fault occurred
+Physical: Swap In: net
+Physical: Accessed frameID: 4 contains: net
+
+Physical: Accessed frameID: 0 contains: main
+
+PageTable: page fault occurred
+Physical: Swap In: update
+Physical: Accessed frameID: 0 contains: update
+
+Physical: Accessed frameID: 2 contains: holding
+
+Physical: Accessed frameID: 4 contains: net
+
+Physical: Accessed frameID: 3 contains: activity
+
+PageTable: page fault occurred
+Physical: Swap In: main
+Physical: Accessed frameID: 1 contains: main
+
+PageTable: page fault occurred
+Physical: Swap In: tax
+Physical: Accessed frameID: 2 contains: tax
+
+Physical: Accessed frameID: 4 contains: net
+
+Physical: Accessed frameID: 1 contains: main
+
+PageTable: page fault occurred
+Physical: Swap In: print
+Physical: Accessed frameID: 3 contains: print
+
+Physical: Accessed frameID: 4 contains: net
+
+Now print snapshots:
+
+Physical Memory Layout:
+Frame: 0 contains: update
+Frame: 1 contains: main
+Frame: 2 contains: tax
+Frame: 3 contains: print
+Frame: 4 contains: net
+
+Page Table Snapshot: 
+Page Index: 0 : Physical Frame Index: 1 : In Use: true
+Page Index: 1 : Physical Frame Index: -1 : In Use: false
+Page Index: 2 : Physical Frame Index: 2 : In Use: true
+Page Index: 3 : Physical Frame Index: 0 : In Use: true
+Page Index: 4 : Physical Frame Index: 3 : In Use: true
+Page Index: 5 : Physical Frame Index: -1 : In Use: false
+Page Index: 6 : Physical Frame Index: -1 : In Use: false
+Page Index: 7 : Physical Frame Index: 4 : In Use: true
+PageTable: Current number of page faults: 9
