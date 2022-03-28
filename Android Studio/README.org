@@ -6,7 +6,7 @@ I will have to sort out problems with running a local android emulator.
 * Portfolios
 1 - [[portfolio1][Calculator]]
 
-2- [[portfolio2][Calculator, auto generating results. Changing activities]]
+2 - [[portfolio2][Calculator, auto generating results. Changing activities]]
 
 3 - [[portfolio3][Calculator, auto generating results. Slide bar]]
 
