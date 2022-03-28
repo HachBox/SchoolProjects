@@ -1,0 +1,42 @@
+1:software:Word Processor:55.00
+2:software:Bad Wolf Video Game:19.99
+3:software:Return to Gallifrey Video Game:59.99
+4:vehicle:TARDIS:6999.99
+5:hardware:sonic toolset:99.99
+6:merchandise:company t-shirt:20.00
+
+1:Robert Jones:Security
+2:Ricky Davis:Engineer
+3:Rodger Jackson:Doctor
+4:Sarah Wilson:Salesperson
+5:Samantha Smith:Salesperson
+6:Billy Crenshaw:Engineer
+7:Clara Oswald:Software Developer
+8:Amelia Johnson:Software Developer
+99:Bobby Smith:CEO
+
+
+1:1:1:01/02/2017:2
+2:2:1:02/04/2017:2
+3:3:1:03/06/2017:4
+4:4:1:11/05/2017:5
+5:1:1:01/12/2015:2
+6:2:2:02/11/2017:2
+7:3:1:05/13/2017:6
+8:6:3:06/24/2017:1
+9:5:1:02/02/2017:8
+10:1:1:05/01/2012:5
+11:2:1:11/05/2015:2
+12:3:1:12/06/2017:3
+13:2:1:02/12/2017:3
+14:1:1:10/16/2017:5
+15:6:4:05/18/2017:3
+16:5:1:06/28/2017:6
+17:1:1:07/30/2017:5
+18:2:1:08/04/2017:7
+19:3:1:09/07/2017:5
+20:2:1:08/04/2017:7
+21:3:1:09/07/2017:5
+22:6:1:10/17/2017:4
+23:6:1:10/17/2017:8
+24:6:1:10/17/2017:99
