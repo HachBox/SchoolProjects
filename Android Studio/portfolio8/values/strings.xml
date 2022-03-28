@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">portfolio8</string>
+    <string name="splash_string">Sounds of Hawaii</string>
+    <string name="drums_play_string">Play the Drums</string>
+    <string name="drums_pause_string">Pause the Drums</string>
+    <string name="ukulele_play_string">Play the Ukulele</string>
+    <string name="ukulele_pause_string">Pause the Ukulele</string>
+</resources>
