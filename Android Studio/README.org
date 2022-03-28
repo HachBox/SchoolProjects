@@ -2,36 +2,46 @@
 The class was fun, it primarily worked on Java. 
 I will have to sort out problems with running a local android emulator.
 
-* Index
-[[portfolio1][Calculator]]
+* Portfolios
+1 - [[portfolio1][Calculator]]
 
-[[portfolio2][Calculator, auto generating results. Changing activities]]
+2- [[portfolio2][Calculator, auto generating results. Changing activities]]
 
-[[portfolio3][Calculator, auto generating results. Slide bar]]
+3 - [[portfolio3][Calculator, auto generating results. Slide bar]]
 
-[[portfolio4a][Buttons - The buttons openn the browser, phone, camera]]
+4 - [[portfolio4a][Buttons - The buttons openn the browser, phone, camera]]
 
-[[portfolio5][Spinners input]]
+5 - [[portfolio5][Spinners input]]
 
-[[portfolio6][Changing activities, displaying error messages?]]
+6 - [[portfolio6][Changing activities, displaying error messages?]]
 
-[[portfolio7][TBD]]
+7 - [[portfolio7][TBD]]
 
-[[portfolio8][Plays mp3 files with a button and a picture denoting the sound]]
+8 - [[portfolio8][Plays mp3 files with a button and a picture denoting the sound]]
 
-[[portfolio9][Tic tac toe]]
+9 - [[portfolio9][Tic tac toe]]
 
-[[portfolio10a_sliding][Sliding - Transitions activities by sliding]]
+10a - [[portfolio10a_sliding][Sliding - Transitions activities by sliding]]
 
-[[portfolio10][TBD]]
+10b - [[portfolio10b_scenes][Press button, display pictures]]
 
-[[portfolio11][TBD]]
-[[portfolio12][]]
-[[portfolio13][]]
-[[portfolio14_letters][]]
-[[portfolio15][]]
-[[midterm][]]
-[[weatherproject][]]
-[[assignment3][]]
-[[assignment4][]]
+11 - [[portfolio11][Landscape/Portrait mode, changing background color?]]
+
+12 - [[portfolio12][Counter (non-stop)]]
+
+13 - [[portfolio13][Bouncing ball]]
+
+14 - [[portfolio14_letters][Letter balls?]]
+
+15 - [[portfolio15][Database]]
+
+* Projects
+
+Midterm - [[midterm][Auto updating conversion app]]
+
+Weather - [[weatherproject][Searches location, display weather info (manual)]]
+
+Assignment 3 - [[assignment3][Display image from drop down menu]]
+
+Assignment 4 - [[assignment4][Plays mp3 by pressing buttons]]
 
