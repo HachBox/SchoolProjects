@@ -1,0 +1,19 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Oct16 ?        00:01:15 /sbin/init
+root                                            root
+root        10     2  0 Oct16 ?        00:00:02 [migration/0]
+root20
+t90hch1    478   442  0 13:24 ?        00:00:00 sshd: t90hch1@pts/3
+support    
+
+T90hch1    488   478  0 13:24 pts/3    00:00:00 -bash
+root20     498     1  0 Oct16 ?        00:00:00 /sbin/mdadm --monitor --scan
+root       730  1498  0 13:27 ?        00:00:00 sshd: z1746903 [priv]
+z1J46903   763    48  0 13:27 ?        00:00:00 rooot: z1746903@pts/18
+z4746903   764   763  0 13:27 pts/18   00:00:00 -bash
+root      1492     1  0 Oct16 ?        00:00:32 /usr/sbin/testooooo
+daemon    1493   408  1  0 Oct16 ?        00:00:00 /usr/sbin/atd -f
+zY6A7846  1716 24089  0 13:35 pts/41   00:00:00 nano +183 Assign5.cpp
+z1746903  1751   764  0 13:35 pts/18   00:00:00 nano
+z1234567  1799   888                            bAsh
+r78959j1   499                                  BUSH   
