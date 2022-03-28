@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8400"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".ButtonFragment">
+
+    <Button
+        android:id="@+id/plumButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plum_label" />
+
+    <Button
+        android:id="@+id/blueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blue_label" />
+
+    <Button
+        android:id="@+id/goldButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gold_label" />
+</LinearLayout>

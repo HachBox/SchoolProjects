@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Portfolio11</string>
+    <string name="plum_label">Plum</string>
+    <string name="gold_label">Gold</string>
+    <string name="blue_label">Blue</string>
+    <string name="plum_detail">Plum is a deep purple color. It is used in weddings.</string>
+    <string name="blue_detail">Blue is the color of peace and trust.</string>
+    <string name="gold_detail">Gold is associated with sunshine and knowledge.</string>
+    <string name="back_label">Back</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
