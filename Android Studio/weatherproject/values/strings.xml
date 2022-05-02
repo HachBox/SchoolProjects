@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">WeatherProject</string>
-    <string name="api_key">704fdb79c657d75896da3baa82faddbc</string>
+    <string name="api_key">redacted</string>
     <string name="web_url">http://api.openweathermap.org/data/2.5/forecast/daily?q=</string>
     <string name="invalid_url">INVALID url</string>
     <string name="weather_image">A graphical representation of the weather conditions</string>
